@@ -1,0 +1,54 @@
+.valentine-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.valentine-main-image {
+  width: 400px;
+  height: 240px;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.valentine-button {
+  color: #fff;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.yes-button {
+  background-color: #61CC2F;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.no-button {
+  background-color: #FF3945;
+}
+
+@media (hover: hover) {
+  .yes-button:hover {
+    background-color: #57B82A;
+    cursor: pointer;
+  }
+  .no-button:hover {
+    background-color: #E6333E;
+    cursor: pointer;
+  }
+}
+
+@media (hover: none) {
+  .yes-button:active {
+    background-color: #57B82A;
+  }
+  .no-button:active {
+    background-color: #E6333E;
+  }
+}
+
